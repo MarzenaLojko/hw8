@@ -987,4 +987,73 @@ header {
   color: #757575;
 }
 
+/*mobile*/
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 94px 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo__link-up {
+    font-size: 26px;
+    margin-right: 95px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo__link-up {
+    font-size: 26px;
+    margin-right: 88px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 26px 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header .container {
+    position: relative;
+  }
+}
 /*# sourceMappingURL=main.min.css.map *//*# sourceMappingURL=main.css.map */
