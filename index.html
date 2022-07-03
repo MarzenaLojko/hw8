@@ -23,7 +23,14 @@
                     <a class="logo__link-up" href="index.html">
                         <h2 class="logo__heading-Web">Web<span class="logo__span-studioUp">Studio</span></h2>
                     </a>
-
+                    <button type="button" class="menu__button" data-menu-button aria-expanded="false"
+                        aria-controls="menu__container">
+                        <svg class="menu__icon" width="40" height="40" aria-label="selektor menu">
+                            <use class="icon-cross" href="./images/icons.svg#icon-close-modal"></use>
+                            <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
+                        </svg>
+                    </button>
+                    <div class="page-header__thumb" id="menu-container" data-menu>
                     <nav>
                         <ul class="menu__list">
                             <li class="menu__item">
@@ -51,6 +58,7 @@
                             </svg> +48 111 111 111</a>
                     </li>
                 </ul>
+            </div>
             </div>
         </div>
     </header>
@@ -343,9 +351,11 @@
                 <address>
                     <ul>
                         <li class="addres__item">m. Warszawa, Aleje Jerozolimskie 21</li>
-                        <li class="addres__item"><a class="footer-item__link" href="mailto:info@example.com">info@example.com</a>
+                        <li class="addres__item"><a class="footer-item__link"
+                                href="mailto:info@example.com">info@example.com</a>
                         </li>
-                        <li class="addres__item"><a class="footer-item__link" href="tel:+48111111111">+48 111 111 111</a></li>
+                        <li class="addres__item"><a class="footer-item__link" href="tel:+48111111111">+48 111 111
+                                111</a></li>
                     </ul>
                 </address>
             </div>
@@ -381,8 +391,7 @@
             </section>
             <section class="newsletter__section">
                 <h3 class="newsletter__heading">Zapisz się do newslettera</h3>
-                <form name="newsletter__form" class="newsletter__form" method="POST"
-                    autocomplete="on">
+                <form name="newsletter__form" class="newsletter__form" method="POST" autocomplete="on">
                     <input class="newsletter__input" type="email" name="email" placeholder="E-Mail" />
                     <button class="newsletter__button" type="submit">
                         Zapisz się<svg class="newsletter-button__icon">
@@ -404,19 +413,18 @@
             <h3 class="modal__heading">Zostaw swoje dane w formularzu poniżej</h3>
             <form class="modal__form" name="application-signup-form" method="POST">
                 <label class="modal__label" for="name">Imię</label>
-                <input class="modal__input modal__image-name" type="text" name="name" id="name"  required/>
+                <input class="modal__input modal__image-name" type="text" name="name" id="name" required />
 
                 <label class="modal__label" for="PhoneNumber">Telefon</label>
-                <input class="modal__input modal__image-phone" type="tel" name="phone_number"
-                    id="phone_number" required />
+                <input class="modal__input modal__image-phone" type="tel" name="phone_number" id="phone_number"
+                    required />
 
                 <label class="modal__label" for="Email">Email</label>
-                <input class="modal__input modal__image-mail" type="email" name="email"
-                    id="email"  required/>
+                <input class="modal__input modal__image-mail" type="email" name="email" id="email" required />
 
                 <label class="modal__label" for="Comment">Komentarz</label>
-                <textarea class="modal__textarea" name="comment" id="comment"
-                    placeholder="Wprowadź tekst" required></textarea>
+                <textarea class="modal__textarea" name="comment" id="comment" placeholder="Wprowadź tekst"
+                    required></textarea>
 
                 <label class="modal__label-terms" for="TermsAndContitions">
                     <input class="modal__input-checkbox hidden" type="checkbox"
@@ -429,8 +437,8 @@
             </form>
         </div>
     </div>
-
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
