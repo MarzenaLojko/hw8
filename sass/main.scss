@@ -1801,7 +1801,8 @@ a {
   border: 1px solid #eee;
   margin-bottom: 30px;
   position: relative;
-  max-width: 370px;
+  width: 315px;
+  max-width: 450px;
   max-height: 404px;
   overflow: hidden;
   z-index: 1001;
@@ -2065,6 +2066,7 @@ a {
     border: 1px solid #eee;
     margin-bottom: 30px;
     position: relative;
+    width: 370px;
     max-width: 370px;
     max-height: 404px;
     overflow: hidden;
