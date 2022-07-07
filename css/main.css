@@ -97,6 +97,21 @@ a {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .first-part__footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 768px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    vertical-align: center;
+  }
+
+  .joinus-part__footer {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .nav-mobile {
     display: none;
   }
@@ -109,6 +124,17 @@ a {
 @media screen and (min-width: 1200px) {
   .nav-mobile {
     display: none;
+  }
+
+  .first-part__footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .joinus-part__footer {
+    padding-top: 0px;
   }
 
   .we-do__div {
@@ -172,6 +198,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 60px;
+    max-width: 600px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -799,6 +826,7 @@ a {
 @media screen and (max-width: 767px) {
   .icon-list__item {
     width: 97%;
+    max-width: 450px;
   }
 
   .icon-list__heading {
@@ -808,6 +836,25 @@ a {
 
   .icon-list__paragraph {
     margin: 0 auto;
+  }
+
+  .container--footer-form {
+    width: 95%;
+  }
+
+  label,
+.newsletter__form {
+    width: 98%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .footer-form {
+    width: 100%;
+  }
+
+  .footer-form__input {
+    width: 87%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -821,6 +868,18 @@ a {
     max-width: 768px;
     flex-wrap: wrap;
     margin: 0 auto;
+  }
+
+  .footer-form__input {
+    width: 450px;
+    display: inline-block;
+  }
+
+  label,
+.newsletter__form {
+    width: 98%;
+    display: inline-block;
+    text-align: center;
   }
 
   .icon-square__list {
@@ -1629,7 +1688,6 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  width: 358px;
   background-color: transparent;
   color: var(--text-gray);
   padding: 16px;
@@ -1903,6 +1961,10 @@ a {
     justify-content: center;
     padding-bottom: 0px;
     padding-top: 94px;
+  }
+
+  .footer-form__input {
+    width: 358px;
   }
 
   .button-list__item {
