@@ -91,6 +91,9 @@ a {
   margin: 0 auto;
 }
 
+// .icon-list__item {
+//   width: 100% ;
+// }
 
 @media screen and (max-width: 767px) {
 
@@ -772,13 +775,14 @@ a {
   display: flex;
   padding: 0;
   padding-top: 94px;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
   flex-direction: column;
   align-items: center;
 }
 
 .icon-square__list {
-  max-width: 450px;
+  // max-width: 450px;
+  width: 100%;
   height: 120px;
   border-radius: 4px;
   background-color: var(--gray-lighter);
@@ -815,6 +819,20 @@ a {
   justify-content: center;
   color: var(--text-gray);
 }
+//LOREM FIX
+@media screen and (max-width: 767px) {
+  .icon-list__item {
+    width: 97%;
+   
+  }
+  .icon-list__heading{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .icon-list__paragraph{
+    margin: 0 auto;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .icon__list {
@@ -822,7 +840,7 @@ a {
     padding: 0;
     padding-top: 94px;
     justify-content: center;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     justify-content: space-evenly;
     flex-direction: row;
     max-width: 768px;
@@ -831,7 +849,7 @@ a {
   }
 
   .icon-square__list {
-    width: 270px;
+    width: 354px;
     height: 120px;
     border-radius: 4px;
     background-color: var(--gray-lighter);
@@ -874,7 +892,7 @@ a {
     padding: 0;
     padding-top: 94px;
     justify-content: center;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     justify-content: space-evenly;
     flex-direction: row;
   }
