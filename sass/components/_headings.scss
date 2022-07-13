@@ -1,0 +1,120 @@
+// mobile
+
+// all
+
+.section-heading {
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+}
+
+// team 
+
+.section-heading--team {
+    padding-top: 94px;
+}
+
+// footer
+
+.modal-form__heading {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-black);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer__heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+// tablet 
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer__heading {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #fff;
+        display: block;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .modal-form__heading {
+        font-size: 20px;
+    }
+}
+
+// desktop
+
+@media screen and (min-width: 1200px) {
+
+    // other
+
+    .section-heading {
+        text-align: center;
+        padding-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.6;
+    }
+
+    // team
+
+    .section-heading--team {
+        padding-top: 94px;
+    }
+
+    // footer
+
+    .footer__heading {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #fff;
+        display: block;
+        margin-bottom: 20px;
+        text-align: start;
+
+        &--join-us {
+            margin-left: 80px;
+        }
+
+        &--sign-up {
+            margin-left: 85px;
+        }
+    }
+
+    // modal
+    .modal-form__heading {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--text-black);
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}

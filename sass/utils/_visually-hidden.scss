@@ -1,0 +1,40 @@
+//mobile
+
+@media screen and (max-width: 767px) {
+
+  .menu,
+  .menu-secondary {
+    display: none
+  }
+}
+
+//tablet
+
+@media screen and (max-width: 1199px) {
+  .our-services {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mobile-navigation {
+    display: none;
+  }
+}
+
+//desktop
+
+@media screen and (min-width: 1200px) {
+  .mobile-navigation {
+    display: none;
+  }
+
+  .our-services {
+    display: block;
+  }
+
+  .menu,
+  .menu-secondary {
+    display: flex;
+  }
+}

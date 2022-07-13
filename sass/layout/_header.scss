@@ -1,0 +1,24 @@
+// header 
+
+// mobile
+
+.header {
+    background-color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #ececec;
+    max-width: 100%;
+}
+
+// desktop
+
+@media screen and (min-width: 1200px) {
+    .header {
+        background-color: #fff;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        border-bottom: 1px solid #ececec;
+        min-height: 80px;
+        align-items: center;
+    }
+}

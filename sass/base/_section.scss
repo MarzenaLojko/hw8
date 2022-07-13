@@ -1,0 +1,19 @@
+// mobile main
+
+.section {
+    padding-top: 60px;
+}
+
+.section--team {
+
+    background-color: var(--light-gray);
+
+}
+
+// desktop
+
+@media screen and (min-width: 1200px) {
+    .section {
+        padding-bottom: 94px;
+    }
+}
